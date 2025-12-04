@@ -13,7 +13,6 @@ https://github.com/KamieLabs/kamie-oss/docs
 ## 🛠 Local development
 
 pnpm install
-pnpm dev
 
 ## 📦 Roadmap (short)
 - New CLI engine
