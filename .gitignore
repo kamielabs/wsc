@@ -1,0 +1,50 @@
+# ==========================================================
+# NODE MODULES & BUILDS
+# ==========================================================
+node_modules/
+dist/
+build/
+out/
+coverage/
+*.log
+
+# Typescript build infos
+*.tsbuildinfo
+
+# pnpm / yarn / npm caches
+.pnpm-store/
+.pnpm-debug.log
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==========================================================
+# ENV & CONFIG SENSIBLES
+# ==========================================================
+.env
+.env.*
+*.env
+
+# ==========================================================
+# OS / EDITOR JUNK
+# ==========================================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.code-workspace
+
+# ==========================================================
+# GENERATED FILES
+# ==========================================================
+ts/generated/
+ts/lib/generated/
+tmp/
+temp/
+.cache/
+
+# ==========================================================
+# RELEASE ARTIFACTS
+# ==========================================================
+release/
