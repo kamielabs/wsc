@@ -14,9 +14,9 @@ export default defineConfig({
   external: [],
   skipNodeModulesBundle: false,
   noExternal: [
-    "@shared/core"
+    "@projects/core"
   ],
   define: {
-    "process.env.WSC_SCRIPT_MODE": JSON.stringify("release")
+    "process.env._NODE_CLI_STAGE": JSON.stringify("release")
   }
 });
