@@ -12,6 +12,7 @@
     "zod": "^4.1.12"
   },
   "dependencies": {
+    "@kamie-oss/core": "workspace:*",
     "chalk": "^5.6.2",
     "chokidar": "^4.0.3",
     "dotenv": "^17.2.3",
@@ -21,3 +22,4 @@
     "yaml": "^2.8.1"
   }
 }
+  

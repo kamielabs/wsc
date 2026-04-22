@@ -15,6 +15,6 @@ export default defineConfig({
   skipNodeModulesBundle: false,
   noExternal: [/.*/],
   define: {
-    "process.env.WSC_SCRIPT_MODE": JSON.stringify("build")
+    "process.env._NODE_CLI_STAGE": JSON.stringify("build")
   }
 });

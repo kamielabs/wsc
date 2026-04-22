@@ -14,6 +14,6 @@ export default defineConfig({
   external: ["chalk", "fs-extra"],
   skipNodeModulesBundle: false,
   noExternal: [
-    "@shared/core"
+    "@projects/core"
   ]
 });

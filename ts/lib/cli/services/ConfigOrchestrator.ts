@@ -58,6 +58,9 @@ import { ManagerResultType, ManagerRuntimeContextType, ServiceConfigSetOptionTyp
  *  Responsible for applying configuration changes safely through validated operations.
  */
 export class ConfigOrchestrator extends ConfigAdapter {
+  // private schema
+  // or method to extend schema (addPersistentConfig) for example
+
   constructor(runtimeCtx?: Partial<ManagerRuntimeContextType>) {
     super(runtimeCtx);
   }
