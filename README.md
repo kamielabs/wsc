@@ -7,14 +7,16 @@ It provides a unified environment for managing workspaces, configuration, runtim
 Expect rapid changes and heavy refactoring.
 
 ## 🔗 Documentation
+
 See the shared KamieLabs documentation here:  
-https://github.com/KamieLabs/kamie-oss/docs
+<https://github.com/KamieLabs/kamie-oss/docs>
 
 ## 🛠 Local development
 
 pnpm install
 
 ## 📦 Roadmap (short)
+
 - New CLI engine
 - Parsing/Runtime refactors
 - Tools module
