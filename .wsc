@@ -1,0 +1,3 @@
+NODE_ENV=dev
+NODE_DEV_SANDBOX_PATH=/home/kame/local/dev/sandboxes/wsc-sb
+NODE_DEV_CWD=/home/kame/local/dev/sandboxes/wsc-sb

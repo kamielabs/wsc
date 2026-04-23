@@ -1,0 +1,11 @@
+{
+    "console": {
+        "quiet": false,
+        "mode": "pretty"
+    },
+    "logging": {
+        "enabled": false,
+        "level": "info",
+        "path": "logs/wsc.log"
+    }
+}
